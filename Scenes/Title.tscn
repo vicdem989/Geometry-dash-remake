@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Script/Title.gd" type="Script" id=1]
+
+[node name="Title" type="Label"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -63.0
+margin_top = 136.0
+margin_right = 63.0
+margin_bottom = 180.0
+text = "Welcome to game
+"
+script = ExtResource( 1 )
