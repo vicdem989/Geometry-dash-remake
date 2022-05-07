@@ -41,6 +41,7 @@ func _physics_process(delta: float) -> void:
 		add_child(particleInstance)
 		
 		jump = false
+		
 
 export(String, FILE) var desiredScenePath: = ""
 

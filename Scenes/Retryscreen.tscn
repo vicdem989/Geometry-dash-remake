@@ -26,6 +26,7 @@ margin_bottom = 86.0
 size_flags_vertical = 3
 
 [node name="Retry" parent="Buttons" instance=ExtResource( 1 )]
+desiredScenePath = "res://Scenes/Levels/Level01.tscn"
 
 [node name="Quit" parent="Buttons" instance=ExtResource( 2 )]
 margin_top = 88.0

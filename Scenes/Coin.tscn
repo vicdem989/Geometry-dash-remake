@@ -24,6 +24,7 @@ script = ExtResource( 2 )
 
 [node name="Coin" type="AnimatedSprite" parent="."]
 position = Vector2( -40, -40 )
+rotation = -0.00226729
 frames = SubResource( 1 )
 animation = "idle"
 centered = false
@@ -35,6 +36,9 @@ shape = SubResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 modulate = Color( 1, 0, 0, 1 )
+rotation = -2.42639
 shape = SubResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 
 [connection signal="body_entered" from="Area2D" to="." method="touchesCoin"]
